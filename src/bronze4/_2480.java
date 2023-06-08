@@ -1,6 +1,8 @@
-import java.util.*;
+package bronze4;
 
-public class Main {
+import java.util.Scanner;
+
+public class _2480 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
