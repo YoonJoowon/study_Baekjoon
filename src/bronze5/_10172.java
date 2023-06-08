@@ -1,6 +1,7 @@
-import java.util.*;
+package bronze5;
 
-public class Main {
+public class _10172 {
+
     public static void main(String[] args) {
         System.out.println("|\\_/|");
         System.out.println("|q p|   /}");
