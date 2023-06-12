@@ -1,7 +1,8 @@
-import java.util.*;
+package bronze2;
 
-public class Main {
+import java.util.Scanner;
 
+public class _10813 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -18,7 +19,6 @@ public class Main {
         for (int i = 0; i < M; i++) {
             int first = sc.nextInt() -1;
             int second = sc.nextInt() -1;
-
 
             int a = array[first];
             int b = array[second];
