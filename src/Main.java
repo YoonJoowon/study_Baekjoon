@@ -25,7 +25,6 @@ public class Main {
             average += (array[j] / array[N - 1] * 100)/ N ;
         }
 
-
         System.out.println(average);
     }
 }
