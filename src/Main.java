@@ -19,12 +19,9 @@ public class Main {
             int first = sc.nextInt() -1;
             int second = sc.nextInt() -1;
 
-
-            int a = array[first];
-            int b = array[second];
-
-            array[first] = b;
-            array[second] = a;
+            for (int j = first; j < second; j++) {
+                array[second] = array[j];
+            }
 
         }
         for (int j = 0; j < N; j++) {
