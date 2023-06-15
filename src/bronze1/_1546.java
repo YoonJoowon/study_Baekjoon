@@ -1,7 +1,9 @@
-import java.util.*;
+package bronze1;
 
-public class Main {
+import java.util.Arrays;
+import java.util.Scanner;
 
+public class _1546 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -19,6 +21,13 @@ public class Main {
 
         Arrays.sort(array);
 
+//        System.out.println(array[N-1]);
 
+        for (int j = 0; j < N; j++) {
+            average += (array[j] / array[N - 1] * 100)/ N ;
+        }
+
+
+        System.out.println(average);
     }
 }
