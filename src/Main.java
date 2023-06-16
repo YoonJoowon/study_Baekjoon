@@ -6,9 +6,13 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        String c = sc.nextLine();
+        int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.println(c.charAt(b-1));
+        a = (a % 10) * 100 + ((a%100) / 10) * 10 + (a / 100);
+        b = (b % 10) * 100 + ((b%100) / 10) * 10 + (b / 100);
+
+
+        System.out.println(a>b? a:b);
     }
 }
