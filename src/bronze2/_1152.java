@@ -1,8 +1,8 @@
-import java.util.*;
+package bronze2;
 
-public class Main {
+import java.util.Scanner;
 
-
+public class _1152 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -15,11 +15,9 @@ public class Main {
             System.out.println(0);
 
 
-        }else {
+        } else {
             System.out.println(arr.length);
 
         }
     }
-
 }
-

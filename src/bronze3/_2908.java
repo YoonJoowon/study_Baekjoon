@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _2908 {
 
-    public class Main {
+
 
         public static void main(String[] args) {
 
@@ -19,6 +19,5 @@ public class _2908 {
 
             System.out.println(a > b ? a : b);
         }
-    }
 
 }
